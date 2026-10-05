@@ -5,7 +5,7 @@ This project uses Logistic Regression to predict whether a customer is likely to
 
 The main idea is simple: understand the available customer and loan information, prepare the data, and build a classification model that can predict Loan Approved (Y) or Loan Rejected (N).
 
-Dataset
+#About Dataset :
 
 The dataset contains 614 loan applications with information such as:
 
@@ -27,7 +27,7 @@ For this project, the model was built using the following numerical features:
 
 ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, and Credit_History.
 
-What I Did
+#What I Did :
 
 The project follows these main steps:
 
@@ -47,13 +47,13 @@ Trained a Logistic Regression model.
 
 Evaluated the model using accuracy, confusion matrix, precision, recall, and F1-score.
 
-Results
+#Results :
 
 The Logistic Regression model achieved an accuracy of approximately 82.93% on the test dataset.
 
 The model performed particularly well at identifying approved loans, with a recall of 98% for the approved class. However, the recall for rejected loans was only 42%, meaning that a significant number of rejected applications were incorrectly predicted as approved.
 
-Libraries Used
+#Libraries Used :
 
 Python
 
@@ -71,6 +71,6 @@ SciPy
 
 imbalanced-learn
 
-Conclusion
+#Conclusion :
 
 This project gave me practical experience with the complete machine learning workflow, from data exploration and preprocessing to model training and evaluation. The results also show why looking beyond accuracy is important, especially when dealing with classification problems where the two classes may not be equally represented.
